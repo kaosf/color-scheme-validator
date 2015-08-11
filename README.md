@@ -41,6 +41,11 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/kaosf/color-schema-validator.
 
+## References
+
+* [shirasagi/email_validator.rb at 3e6b88b741048af6ca15e90236964b84da8c7fe6 · shirasagi/shirasagi](https://github.com/shirasagi/shirasagi/blob/3e6b88b741048af6ca15e90236964b84da8c7fe6/app/validators/email_validator.rb)
+* [balexand/email_validator](https://github.com/balexand/email_validator)
+
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
