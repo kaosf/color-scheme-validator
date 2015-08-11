@@ -18,10 +18,6 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install color-schema-validator
-
 ## Usage
 
 ```ruby
