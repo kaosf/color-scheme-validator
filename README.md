@@ -2,6 +2,10 @@
 
 Color schema validator for Rails.
 
+Like `#FF0000`, `#00ff00` and `#00f` strings are allowed.
+
+Other strings are denied.
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -20,7 +24,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+class Item < ActiveRecord::Base
+  validates :color, color_schema: true
+end
+```
 
 ## Development
 
