@@ -1,5 +1,10 @@
 # ColorSchemaValidator
 
+[![Gem Version](https://badge.fury.io/rb/color-schema-validator.svg)](http://badge.fury.io/rb/color-schema-validator)
+[![Dependency Status](https://gemnasium.com/kaosf/color-schema-validator.svg)](https://gemnasium.com/kaosf/color-schema-validator)
+[![Build Status](https://travis-ci.org/kaosf/color-schema-validator.svg)](https://travis-ci.org/kaosf/color-schema-validator)
+[![Code Climate](https://codeclimate.com/github/kaosf/color-schema-validator/badges/gpa.svg)](https://codeclimate.com/github/kaosf/color-schema-validator)
+
 Color schema validator for Rails.
 
 Like `#FF0000`, `#00ff00` and `#00f` strings are allowed.
