@@ -65,7 +65,8 @@ class TestColorSchemaValidator < Test::Unit::TestCase
     '4 characters' => '#0123',
     '5 characters' => '#01234',
     '7 characters' => '#0123456',
-    'not hex'      => '#01234g')
+    'not hex'      => '#01234g',
+    'attack'       => "#000000\nalert('hello');")
   test "invalid color schema strings" do |data|
     @instance.color = data
     assert_false @instance.valid?
