@@ -7,7 +7,7 @@ Color schema validator for Rails.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'color_schema_validator'
+gem 'color-schema-validator'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install color_schema_validator
+    $ gem install color-schema-validator
 
 ## Usage
 
@@ -30,5 +30,5 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/kaosf/color_schema_validator.
+Bug reports and pull requests are welcome on GitHub at https://github.com/kaosf/color-schema-validator.
 
