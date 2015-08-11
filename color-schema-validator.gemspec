@@ -11,6 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Color schema validator for Rails.}
   spec.description   = %q{Color schema validator for Rails.}
   spec.homepage      = "https://github.com/kaosf/color-schema-validator"
+  spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"

@@ -40,3 +40,8 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/kaosf/color-schema-validator.
 
+## License
+
+[MIT](http://opensource.org/licenses/MIT)
+
+Copyright (C) 2015 ka
