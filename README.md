@@ -31,6 +31,24 @@ class Item < ActiveRecord::Base
 end
 ```
 
+## Locales
+
+Run
+
+```sh
+rails g colorschema:install
+```
+
+to generate `config/locales/colorschema.en.yml`.
+
+If you want to use another language, append an argument like
+
+```sh
+rails g colorschema:install ja
+```
+
+to generate `config/locales/colorschema.ja.yml`.
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
