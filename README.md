@@ -45,6 +45,9 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/kaosf/
 
 * [shirasagi/email_validator.rb at 3e6b88b741048af6ca15e90236964b84da8c7fe6 · shirasagi/shirasagi](https://github.com/shirasagi/shirasagi/blob/3e6b88b741048af6ca15e90236964b84da8c7fe6/app/validators/email_validator.rb)
 * [balexand/email_validator](https://github.com/balexand/email_validator)
+* [Railsのi18nの基本的な使い方まとめ - Rails Webook](http://ruby-rails.hatenadiary.com/entry/20150226/1424937175)
+* [Creating and Customizing Rails Generators & Templates — Ruby on Rails Guides](http://guides.rubyonrails.org/generators.html)
+* [plataformatec/devise](https://github.com/plataformatec/devise)
 
 ## License
 
