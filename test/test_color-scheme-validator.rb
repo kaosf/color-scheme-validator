@@ -1,8 +1,8 @@
 require 'test/unit'
 require 'active_model'
-require 'color-schema-validator'
+require 'color-scheme-validator'
 
-class TestColorSchemaValidator < Test::Unit::TestCase
+class TestColorSchemeValidator < Test::Unit::TestCase
   setup do
     model_class = Struct.new(:model) do
       include ActiveModel::Validations
@@ -12,7 +12,7 @@ class TestColorSchemaValidator < Test::Unit::TestCase
       end
 
       attr_accessor :color
-      validates :color, color_schema: true
+      validates :color, color_scheme: true
     end
 
     @instance = model_class.new(:model)
@@ -54,7 +54,7 @@ class TestColorSchemaValidator < Test::Unit::TestCase
     'd'             => '#dddddd',
     'e'             => '#eeeeee',
     'f'             => '#ffffff')
-  test "valid color schema strings" do |data|
+  test "valid color scheme strings" do |data|
     @instance.color = data
     assert_true @instance.valid?
   end
@@ -67,7 +67,7 @@ class TestColorSchemaValidator < Test::Unit::TestCase
     '7 characters' => '#0123456',
     'not hex'      => '#01234g',
     'attack'       => "#000000\nalert('hello');")
-  test "invalid color schema strings" do |data|
+  test "invalid color scheme strings" do |data|
     @instance.color = data
     assert_false @instance.valid?
   end

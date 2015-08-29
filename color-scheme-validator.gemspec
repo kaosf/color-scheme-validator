@@ -3,14 +3,14 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = "color-schema-validator"
+  spec.name          = "color-scheme-validator"
   spec.version       = "0.2.0"
   spec.authors       = ["ka"]
   spec.email         = ["ka.kaosf@gmail.com"]
 
-  spec.summary       = %q{Color schema validator for Rails.}
-  spec.description   = %q{Color schema validator for Rails.}
-  spec.homepage      = "https://github.com/kaosf/color-schema-validator"
+  spec.summary       = %q{Color scheme validator for Rails.}
+  spec.description   = %q{Color scheme validator for Rails.}
+  spec.homepage      = "https://github.com/kaosf/color-scheme-validator"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

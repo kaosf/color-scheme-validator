@@ -1,11 +1,11 @@
-# ColorSchemaValidator
+# ColorSchemeValidator
 
-[![Gem Version](https://badge.fury.io/rb/color-schema-validator.svg)](http://badge.fury.io/rb/color-schema-validator)
-[![Dependency Status](https://gemnasium.com/kaosf/color-schema-validator.svg)](https://gemnasium.com/kaosf/color-schema-validator)
-[![Build Status](https://travis-ci.org/kaosf/color-schema-validator.svg)](https://travis-ci.org/kaosf/color-schema-validator)
-[![Code Climate](https://codeclimate.com/github/kaosf/color-schema-validator/badges/gpa.svg)](https://codeclimate.com/github/kaosf/color-schema-validator)
+[![Gem Version](https://badge.fury.io/rb/color-scheme-validator.svg)](http://badge.fury.io/rb/color-scheme-validator)
+[![Dependency Status](https://gemnasium.com/kaosf/color-scheme-validator.svg)](https://gemnasium.com/kaosf/color-scheme-validator)
+[![Build Status](https://travis-ci.org/kaosf/color-scheme-validator.svg)](https://travis-ci.org/kaosf/color-scheme-validator)
+[![Code Climate](https://codeclimate.com/github/kaosf/color-scheme-validator/badges/gpa.svg)](https://codeclimate.com/github/kaosf/color-scheme-validator)
 
-Color schema validator for Rails.
+Color scheme validator for Rails.
 
 Like `#FF0000`, `#00ff00` and `#00f` strings are allowed.
 
@@ -16,7 +16,7 @@ Other strings are denied.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'color-schema-validator'
+gem 'color-scheme-validator'
 ```
 
 And then execute:
@@ -27,7 +27,7 @@ And then execute:
 
 ```ruby
 class Item < ActiveRecord::Base
-  validates :color, color_schema: true
+  validates :color, color_scheme: true
 end
 ```
 
@@ -36,18 +36,18 @@ end
 Run
 
 ```sh
-rails g colorschema:install
+rails g colorscheme:install
 ```
 
-to generate `config/locales/colorschema.en.yml`.
+to generate `config/locales/colorscheme.en.yml`.
 
 If you want to use another language, append an argument like
 
 ```sh
-rails g colorschema:install ja
+rails g colorscheme:install ja
 ```
 
-to generate `config/locales/colorschema.ja.yml`.
+to generate `config/locales/colorscheme.ja.yml`.
 
 ## Development
 
@@ -57,7 +57,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/kaosf/color-schema-validator.
+Bug reports and pull requests are welcome on GitHub at https://github.com/kaosf/color-scheme-validator.
 
 ## References
 

@@ -1,4 +1,4 @@
 en:
   errors:
     messages:
-      invalid_color_schema: 'Invalid color schema (e.g. #FF0000)'
+      invalid_color_scheme: 'Invalid color scheme (e.g. #FF0000)'

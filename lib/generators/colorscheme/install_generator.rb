@@ -1,6 +1,6 @@
 require 'rails/generators/base'
 
-module Colorschema
+module Colorscheme
   class InstallGenerator < Rails::Generators::Base
     source_root File.expand_path("../../../../", __FILE__)
 
@@ -9,15 +9,15 @@ module Colorschema
     def copy_locale
       case lang
       when "en"
-        copy_file "config/locales/en.yml", "config/locales/colorschema.en.yml"
+        copy_file "config/locales/en.yml", "config/locales/colorscheme.en.yml"
       when "ja"
-        copy_file "config/locales/ja.yml", "config/locales/colorschema.ja.yml"
+        copy_file "config/locales/ja.yml", "config/locales/colorscheme.ja.yml"
       else
-        create_file "config/locales/colorschema.#{lang}.yml", <<EOS
+        create_file "config/locales/colorscheme.#{lang}.yml", <<EOS
 #{lang}:
   errors:
     messages:
-      invalid_color_schema: REPLACE_WITH_YOUR_LANGUAGE
+      invalid_color_scheme: REPLACE_WITH_YOUR_LANGUAGE
 EOS
       end
     end
